@@ -9,6 +9,7 @@
 <div>Guesses: <span id="oldGuesses"></span></div>
 <div>Letter? <input id="newGuesses" type="text" />
              <button id="submit">Submit</button></div>
+<div><span id="answer"></span></div>
 <div id="fail"></div>
 
 <script>
@@ -19,6 +20,13 @@ function guess() {
   $.get("/rest/match",
         { oldPattern: oldPattern, oldGuesses: oldGuesses, newGuesses: newGuesses },
         function(newPattern) {
+
+          if(oldPattern == newPattern){
+            $("#answer").text("incorrect");
+          }else{
+            $("#answer").text("correct");
+
+          }
           $("#pattern").text(newPattern);
           $("#oldGuesses").append(newGuesses);
           $("#newGuesses").val("");

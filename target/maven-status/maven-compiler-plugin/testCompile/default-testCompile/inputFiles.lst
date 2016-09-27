@@ -1,3 +1,5 @@
-/Users/yarelychino/Documents/CST438/Assignment4/hangman-webapp/src/test/java/edu/csumb/cst438fa16/hangman/HangmanTest.java
-/Users/yarelychino/Documents/CST438/Assignment4/hangman-webapp/src/test/java/edu/csumb/cst438fa16/hangman/rest/HangmanResourceTest.java
-/Users/yarelychino/Documents/CST438/Assignment4/hangman-webapp/src/test/java/edu/csumb/cst438fa16/hangman/webclient/HangmanIT.java
+/Users/yarelychino/Documents/CST438/Assignment4/CST438-Assignment4-/src/test/java/feature/word/WordTestIT.java
+/Users/yarelychino/Documents/CST438/Assignment4/CST438-Assignment4-/src/test/java/edu/csumb/cst438fa16/hangman/HangmanTest.java
+/Users/yarelychino/Documents/CST438/Assignment4/CST438-Assignment4-/src/test/java/edu/csumb/cst438fa16/hangman/webclient/HangmanIT.java
+/Users/yarelychino/Documents/CST438/Assignment4/CST438-Assignment4-/src/test/java/feature/word/WordSteps.java
+/Users/yarelychino/Documents/CST438/Assignment4/CST438-Assignment4-/src/test/java/edu/csumb/cst438fa16/hangman/rest/HangmanResourceTest.java
